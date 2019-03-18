@@ -15,9 +15,9 @@ $x = 5 /* + 15 */ + 5;
 echo "<br>".$x."<br>";
 
 //PHP Case Sensitivity
-ECHO "Hello World!<br>";
-echo "Hello World!<br>";
-EcHo "Hello World!<br>";
+ECHO "Hello Stately!<br>";
+echo "Hello Stately!<br>";
+EcHo "Hello Stately!<br>";
 
 //PHP Case Sensitivity
 $color = "red";
