@@ -20,8 +20,8 @@
 
 	foreach($age as $x => $x_value)	//Loop Through an Associative Array
 	{
-    echo "Key=" . $x . ", Value=" . $x_value;
-    echo "<br>";
+	    echo "Key=" . $x . ", Value=" . $x_value;
+	    echo "<br>";
 	}
 
 	for ($row = 0; $row < 4; $row++) 
