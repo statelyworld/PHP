@@ -1,6 +1,8 @@
 <?php
 	$languages = array("PHP", "Javascript", "MYSQL");	//Indexed Arrays
 	$age = array("Gaurav"=>"35", "Amit"=>"37", "Sumit"=>"43");	//Associative Arrays
+	$cars = array(array("Volvo",22,18),array("BMW",15,13),array("Saab",5,2),array("Land Rover",17,15));	//Multidimensional Arrays
+
 	$arrlength=count($languages);
 	
 	echo "I like " . $languages[0] . ", " . $languages[1] . " and " . $languages[2] . "."; 	
@@ -22,20 +24,14 @@
     echo "<br>";
 	}
 
-	// ======================
-	$cars = array(
-				  array("Volvo",22,18),
-				  array("BMW",15,13),
-				  array("Saab",5,2),
-				  array("Land Rover",17,15)
-				 );
-    
-			for ($row = 0; $row < 4; $row++) {
-			  echo "<p><b>Row number $row</b></p>";
-			  echo "<ul>";
-			  for ($col = 0; $col < 3; $col++) {
-			    echo "<li>".$cars[$row][$col]."</li>";
-			  }
-			  echo "</ul>";
-			}
+	for ($row = 0; $row < 4; $row++) 
+	{
+	  echo "<p><b>Row number $row</b></p>";
+	  echo "<ul>";
+	  for ($col = 0; $col < 3; $col++) 
+	  {
+	    echo "<li>".$cars[$row][$col]."</li>";
+	  }
+	  echo "</ul>";
+	}
 ?>
